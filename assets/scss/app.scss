@@ -1,27 +1,8 @@
-
-
-
-/*==========  Overwriting Foundation variables goes before including foundation itself.
-			  See settings.scss from Foundation for examples ==========*/
-
+/* SCSS  Variables */
 $primary-color: #008CBA;
 $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
-
-
-
-
-
-
-
-
-
-/*=================================================================  
-  
-    Import Foundation Components - REMOVE what you don't use to keep the CSS as little as possible
-
-=================================================================*/
-
+/* Import Foundation Components - REMOVE what you don't use to keep the CSS as little as possible */
 
 @import 
   "bower_components/foundation/scss/foundation/components/grid",
@@ -62,56 +43,13 @@ $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   "bower_components/foundation/scss/foundation/components/offcanvas",
   "bower_components/foundation/scss/foundation/components/visibility";
 
+/* Do your SASS awesomeness here! Goodspeed young traveler :) */
 
 
-
-
-
-
-
-
-
-
-
-/*=================================================================  
-
-	Do your SASS awesomeness here! Goodspeed young traveler :)
-
-=================================================================*/
-
-
-
-
-
-
-
-
-/*==========  General styling  ==========*/
+/* General styling */
 
 .entry-meta {margin-bottom: 1em; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+aside { margin-top: 20px; ul { margin-left: 0; text-indent: none; } li { list-style: none; } }
 
 /*==========  Foundation Media Queries - copy/paste from here if needed  ==========*/
 

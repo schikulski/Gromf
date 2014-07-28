@@ -25,14 +25,14 @@ function roots_main_class() {
     $class = 'small-12 columns';
   }
 
-  return $class;
+  return apply_filters('roots/main_class', $class);
 }
 
 /**
  * .sidebar classes
  */
 function roots_sidebar_class() {
-  return 'small-12 medium-4 columns';
+  return apply_filters('roots/sidebar_class', 'small-12 medium-4 columns');
 }
 
 /**
@@ -65,7 +65,7 @@ function roots_display_sidebar() {
     )
   );
 
-  return apply_filters('roots_display_sidebar', $sidebar_config->display);
+  return apply_filters('roots/display_sidebar', $sidebar_config->display);
 }
 
 /**

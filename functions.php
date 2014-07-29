@@ -1,6 +1,13 @@
 <?php
 /**
  * Roots includes
+ *
+ * The $roots_includes array determines the code library included in your theme.
+ * Add or remove files to the array as needed. Supports child theme overrides.
+ *
+ * Please note that missing files will produce a fatal error.
+ *
+ * @link https://github.com/roots/roots/pull/1042
  */
 $roots_includes = array(
   '/lib/utils.php',           // Utility functions
@@ -20,8 +27,8 @@ $roots_includes = array(
   '/lib/custom.php',          // Custom functions
 );
 
-foreach($roots_includes as $file){
-  if(!$filepath = locate_template($file)) {
+foreach ($roots_includes as $file) {
+  if (!$filepath = locate_template($file)) {
     trigger_error("Error locating `$file` for inclusion!", E_USER_ERROR);
   }
 

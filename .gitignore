@@ -4,3 +4,6 @@ dist
 bower_components
 node_modules
 npm-debug.log
+
+.DS_Store # OS X
+.AppleDouble # OS X

@@ -2,6 +2,8 @@
 
 Gromf is a WordPress starter theme based on [Roots](https://github.com/roots/roots) 7.0, using [Foundation](http://foundation.zurb.com) & [Gulp](http://gulpjs.com) instead of Bootstrap & Grunt.
 
+Gromf for Sage 8.x is currently under development under the 8.x branch.
+
 
 ## Features
 

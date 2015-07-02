@@ -11,6 +11,7 @@ var rename = require('gulp-rename');					// Rename files
 var notify = require('gulp-notify');						// Writing stuff
 var livereload = require('gulp-livereload');			// LiveReload
 var jshint = require("gulp-jshint");					// jshint
+var sourcemaps = require('gulp-sourcemaps');      // Sourcemaps
 
 
 
@@ -25,10 +26,12 @@ var jshint = require("gulp-jshint");					// jshint
 		gulp.src([
 			'bower_components/foundation/scss/normalize.scss',         // Gets normalize
 			'assets/scss/app.scss'])                                   // Gets the apps scss
+			.pipe(sourcemaps.init())                                   // Initializes Sourcemaps
 			.pipe(sass({style: 'compressed', errLogToConsole: true}))  // Compile sass
 			.pipe(concat('main.css'))                                  // Concat all css
 			.pipe(rename({suffix: '.min'}))                            // Rename it
-			.pipe(minifycss())                                         // Minify the CSS
+			.pipe(sourcemaps.write())                                  // Writes Sourcemaps
+			//.pipe(minifycss())                                       // Minify the CSS (Off during development for sourcemaps to work)
 			.pipe(gulp.dest('assets/css/'))                            // Set the destination to assets/css
 			.pipe(livereload())                                        // Reloads server
 			.pipe(notify('Sass compiled & minified'));                 // Output to notification

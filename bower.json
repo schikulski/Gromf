@@ -8,32 +8,40 @@
   "private": true,
   "dependencies": {
     "modernizr": "2.8.2",
-    "bootstrap-sass-official": "3.3.5"
+    "foundation": "~5.5.2"
   },
   "overrides": {
     "modernizr": {
       "main": "./modernizr.js"
     },
-    "bootstrap-sass-official": {
+    "foundation": {
       "main": [
-        "./assets/stylesheets/_bootstrap.scss",
-        "./assets/javascripts/bootstrap/transition.js",
-        "./assets/javascripts/bootstrap/alert.js",
-        "./assets/javascripts/bootstrap/button.js",
-        "./assets/javascripts/bootstrap/carousel.js",
-        "./assets/javascripts/bootstrap/collapse.js",
-        "./assets/javascripts/bootstrap/dropdown.js",
-        "./assets/javascripts/bootstrap/modal.js",
-        "./assets/javascripts/bootstrap/tooltip.js",
-        "./assets/javascripts/bootstrap/popover.js",
-        "./assets/javascripts/bootstrap/scrollspy.js",
-        "./assets/javascripts/bootstrap/tab.js",
-        "./assets/javascripts/bootstrap/affix.js",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+
+        "./scss/normalize.scss",
+        "./scss/foundation.scss",
+
+
+        "../fastclick/lib/fastclick.js",
+
+    
+        "./js/foundation/foundation.js",
+        "./js/foundation/foundation.abide.js",
+        "./js/foundation/foundation.accordion.js",
+        "./js/foundation/foundation.alert.js",
+        "./js/foundation/foundation.clearing.js",
+        "./js/foundation/foundation.dropdown.js",
+        "./js/foundation/foundation.equalizer.js",
+        "./js/foundation/foundation.interchange.js",
+        "./js/foundation/foundation.joyride.js",
+        "./js/foundation/foundation.magellan.js",
+        "./js/foundation/foundation.offcanvas.js",
+        "./js/foundation/foundation.orbit.js",
+        "./js/foundation/foundation.reveal.js",
+        "./js/foundation/foundation.slider.js",
+        "./js/foundation/foundation.tab.js",
+        "./js/foundation/foundation.tooltip.js",
+        "./js/foundation/foundation.topbar.js"
+
       ]
     }
   }

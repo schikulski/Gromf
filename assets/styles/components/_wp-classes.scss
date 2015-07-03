@@ -9,21 +9,21 @@
 }
 .aligncenter {
   display: block;
-  margin: ($line-height-computed / 2) auto;
+  margin: ($column-gutter / 2) auto;
 }
 .alignleft,
 .alignright {
-  margin-bottom: ($line-height-computed / 2);
+  margin-bottom: ($column-gutter / 2);
 }
-@media (min-width: $screen-sm-min) {
+@media #{$small-up} {
   // Only float if not on an extra small device
   .alignleft {
     float: left;
-    margin-right: ($line-height-computed / 2);
+    margin-right: ($column-gutter / 2);
   }
   .alignright {
     float: right;
-    margin-left: ($line-height-computed / 2);
+    margin-left: ($column-gutter / 2);
   }
 }
 
@@ -32,7 +32,7 @@
   @extend .thumbnail;
 }
 .wp-caption-text {
-  padding: $thumbnail-caption-padding;
+  padding: ($column-gutter / 2);
 }
 
 // Text meant only for screen readers

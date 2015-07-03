@@ -6,6 +6,8 @@ Gromf is a [Sage](https://github.com/roots/sage) fork, a WordPress starter theme
 
 While Sage is set up to use Bootstrap as default, Gromf uses Foundation. Everything else is more or less the same.
 
+Gromf for Roots 7.x is still available under the 7.x branch.
+
 * Sage Source: [https://github.com/roots/sage](https://github.com/roots/sage)
 * Sage Homepage: [https://roots.io/sage/](https://roots.io/sage/)
 * Sage Documentation: [https://roots.io/sage/docs/](https://roots.io/sage/docs/)

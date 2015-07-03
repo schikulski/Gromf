@@ -25,10 +25,6 @@
 @import "layouts/_posts";
 
 
-body {
-	background: blue;
-}
-
 
 
 /*==========  Foundation Media Queries - copy/paste from here if needed  ==========*/
@@ -47,3 +43,16 @@ body {
 
 @media #{$xxlarge-up} { }
 @media #{$xxlarge-only} { }
+
+
+
+
+/*==========  Fixes overlapping admin bar  ==========*/
+
+
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+		position: fixed !important;
+	}
+}
+            

@@ -1,15 +1,17 @@
-# [Sage](https://roots.io/sage/)
+# Gromf
 [![Build Status](https://travis-ci.org/roots/sage.svg)](https://travis-ci.org/roots/sage)
 [![devDependency Status](https://david-dm.org/roots/sage/dev-status.svg)](https://david-dm.org/roots/sage#info=devDependencies)
 
-Sage is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, that will help you make better themes.
+Gromf is a [Sage](https://github.com/roots/sage) fork, a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Foundation Sass, that will help you make better themes.
 
-* Source: [https://github.com/roots/sage](https://github.com/roots/sage)
-* Homepage: [https://roots.io/sage/](https://roots.io/sage/)
-* Documentation: [https://roots.io/sage/docs/](https://roots.io/sage/docs/)
-* Twitter: [@rootswp](https://twitter.com/rootswp), [@retlehs](https://twitter.com/retlehs), [@swalkinshaw](https://twitter.com/swalkinshaw), [@Foxaii](https://twitter.com/Foxaii), [@c2foryou](https://twitter.com/c2foryou), [@austinpray](https://twitter.com/austinpray)
-* Newsletter: [Subscribe](http://roots.io/subscribe/)
-* Forum: [https://discourse.roots.io/](https://discourse.roots.io/)
+While Sage is set up to use Bootstrap as default, Gromf uses Foundation. Everything else is more or less the same.
+
+* Sage Source: [https://github.com/roots/sage](https://github.com/roots/sage)
+* Sage Homepage: [https://roots.io/sage/](https://roots.io/sage/)
+* Sage Documentation: [https://roots.io/sage/docs/](https://roots.io/sage/docs/)
+* Sage Twitter: [@rootswp](https://twitter.com/rootswp), [@retlehs](https://twitter.com/retlehs), [@swalkinshaw](https://twitter.com/swalkinshaw), [@Foxaii](https://twitter.com/Foxaii), [@c2foryou](https://twitter.com/c2foryou), [@austinpray](https://twitter.com/austinpray)
+* Sage Newsletter: [Subscribe](http://roots.io/subscribe/)
+* Sage Forum: [https://discourse.roots.io/](https://discourse.roots.io/)
 
 ## Requirements
 
@@ -45,7 +47,7 @@ Install the [Soil](https://github.com/roots/soil) plugin to enable additional fe
 
 ## Installation
 
-Clone the git repo - `git clone https://github.com/roots/sage.git` and then rename the directory to the name of your theme or website.
+Clone the git repo - `git clone https://github.com/schikulski/gromf.git` and then rename the directory to the name of your theme or website.
 
 If you don't use [Bedrock](https://github.com/roots/bedrock), you'll need to add the following to your `wp-config.php` on your development installation:
 
@@ -102,15 +104,11 @@ If your local development URL looks like `http://localhost:8888/project-name/` y
 ...
 ```
 
-## Documentation
+## Sage Documentation
 
 Sage documentation is available at [https://roots.io/sage/docs/](https://roots.io/sage/docs/).
 
-## Contributing
-
-Contributions are welcome from everyone. We have [contributing guidelines](CONTRIBUTING.md) to help you get started.
-
-## Community
+## Sage Community
 
 Keep track of development and community news.
 
@@ -118,3 +116,8 @@ Keep track of development and community news.
 * Follow [@rootswp on Twitter](https://twitter.com/rootswp)
 * Read and subscribe to the [Roots Blog](https://roots.io/blog/)
 * Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
+
+
+## Contributing
+
+Contributions are welcome from everyone.

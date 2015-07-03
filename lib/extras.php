@@ -31,3 +31,19 @@ function excerpt_more() {
   return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+
+
+
+
+
+
+//
+//    Adds Foundation classes to next/prev buttons
+//
+//////////////////////////////////////////////////////////////////////
+add_filter('next_posts_link_attributes', 'posts_link_attributes');
+add_filter('previous_posts_link_attributes', 'posts_link_attributes');
+function posts_link_attributes() {
+    return 'class="button tiny"';
+}

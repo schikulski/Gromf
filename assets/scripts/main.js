@@ -19,6 +19,9 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+
+        $(document).foundation(); // Foundation JavaScript
+
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

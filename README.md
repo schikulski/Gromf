@@ -1,3 +1,5 @@
+### Instead of maintaining this repo, I'm working on a [step-by-step guid for how to replace Bootstrap with Foundation here](https://github.com/schikulski/sage-foundation).
+
 ![Gromf](https://raw.githubusercontent.com/schikulski/gromf/master/screenshot.png)
 
 # Gromf
